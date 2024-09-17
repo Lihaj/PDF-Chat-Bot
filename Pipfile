@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+langchain = "*"
+PyPDF2 = "*"
+chromadb = "*"
+faiss-cpu = "*"
+langchain_google_genai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
